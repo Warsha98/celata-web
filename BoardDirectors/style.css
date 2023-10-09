@@ -10,7 +10,7 @@ body {
     background-color: #f0f0f0;
     text-align: center;
 }
-/* 
+
 .team-section {
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +25,8 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-
     margin-bottom: 20px; /* Add some space between persons */
 }
-
 
 .person:hover {
     transform: translateY(-10px);
@@ -42,11 +40,9 @@ body {
 }
 
 .person-info {
-
     margin-left: 0; /* Reset margin-left for mobile */
     padding: 20px;
     text-align: center; /* Center text for mobile */
-
     flex: 1;
 }
 
@@ -61,16 +57,14 @@ body {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 10px;
-
     margin-left: 0; /* Reset margin-left for mobile */
     text-align: justify;
-
 }
 
 .socialmedia {
     margin-top: 20px;
-} */
-/* 
+}
+
 .socialmedia a {
     display: inline-block;
     width: 40px;
@@ -89,7 +83,7 @@ body {
     color: #050902;
     background-color: transparent;
     transform: scale(1.2);
-} */
+}
 
 .contact {
     position: relative;
@@ -145,7 +139,6 @@ body {
     opacity: 1;
 }
 
-
 /* Media Query for screens less than 768px wide (typical mobile devices) */
 @media screen and (max-width: 768px) {
     .person-info {
@@ -191,4 +184,3 @@ iframe {
       height: 1050px; 
     }
   }
-
