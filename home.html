@@ -30,22 +30,48 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Bootslander
-  * Updated: Jul 27 2023 with Bootstrap v5.3.1
-  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
 
-  <!-- <div id="navBarContainer"></div> -->
-  <iframe src="navibar.html" frameborder="0" scrolling="no" width="100%"></iframe>
+  <!-- <iframe src="navibar.html" frameborder="0" scrolling="no" width="100%"></iframe> -->
+
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+
+        <a href="index.html"><img src="./assets/Celima/celataTech_main_logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a id="home-link" class="nav-link scrollto" href="#home">Home</a></li>
+          <li class="dropdown "><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./ourstory/index.html" target="_blank">Our Story</a></li>
+              <li><a href="./BoardDirectors/index.html" target="_blank">Board Of Directors</a></li>
+            </ul>
+          <li><a class="nav-link scrollto" href="#careers">Careers</a></li>
+          <li class="dropdown"><a href="#"><span>Our Platform</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Geo Bizz</a></li>
+              <li><a href="#">Agro Bizz</a></li>
+            </ul>
+          <li><a class="nav-link scrollto" href="./newsEvent/index.html" target="_blank">News & Events</a></li>
+          <li><a class="nav-link scrollto" href="./contact/index.html" target="_blank">Contact</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle" style="color: black;"></i>
+
+      </nav>
+
+    </div>
+  </header>
+
 
 
   <!-- ======= Hero Section ======= -->
@@ -424,75 +450,149 @@
 
   </main><!-- End #main -->
 
-  <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="400px"></iframe>
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-
-          </div>
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Explore</h4>
-            <ul>
-              <li><i class="fa-solid fa-house-chimney" style="color: #f7f7f8;"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Explore</h4>
-            <ul>
-              <li><i class="fa fa-car"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Legal</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privany Policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of Use</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Cookies Setting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Send Feedback</a></li>
-
-            </ul>
-          </div>
+  <footer class="text-center text-lg-start text-muted mt-5">
 
 
 
+    <!-- Section: Links  -->
+    <section id="footer">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4 text-white">
+                        Explore
+                    </h6>
+                    <p>
+                        <!-- <i class="fa-solid fa-globe"></i>  -->
+
+                        <i class="fas fa-globe"></i>
+                        <a href="#!" class="text-reset">Celata Tech Inc. Suit 413A, 1603 Capitol Avenue, 3097 Laramie, Cheyenne, Wyoming, USA 820001.</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Hello@Celata.tech
+
+
+
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">+94 706077177</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4 text-white">
+                        Explore
+                    </h6>
+                    <p>
+                        <i class="fa-solid fa-globe"></i>
+                        <a href="#!" class="text-reset">Celata Tech (Pvt) Ltd, No. 80,<br> Galle Road, Mount
+                            Lavinia,<br> Sri Lanka.</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Hello@Celata.tech
+
+
+
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">+94 706077177</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <p class="h5 mb-4 text-white">Quick Links</p>
+
+                    <p>
+                        <i class="fa fa-home outline" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Home</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-file-o" aria-hidden="true"></i>
+                        <a href="#!" class="text-reset">Careers</a>
+                    </p>
+                    <p>
+
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Contact Us</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-building-o" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Event & news</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+
+                    <p class="h5 mb-4 text-white">Legal</p>
+                    <p>
+                        <i class="fa fa-home outline" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Privancy Police</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Terms of use</a>
+                    </p>
+                    <p>
+
+
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Cookies Setting</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+
+                        <a href="#!" class="text-reset">Send Feedback</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
         </div>
-      </div>
-    </div>
+        <p class="dashed-line">
+        <p>
+        <div class="text-center">
+            Copyright @ 2023 Celata tech (Pvt) Ltd | All Rights Reserverd
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/" </a>
+        </div>
+    </section>
+    <!-- Section: Links  -->
 
-    <div class="container">
-      <div class="copyright">
-        Copyright &copy; 2023 Celata tech (Pvt) Ltd | All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+    <!-- Copyright -->
+
+
+
+    <!-- Copyright -->
+</footer>
 
       </div>
     </div>
@@ -514,17 +614,20 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
-<!-- index.html (JavaScript) -->
 <script>
-  // Fetch the content of navibar.html and insert it into the container div
-  fetch('navibar.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('navBarContainer').innerHTML = data;
-    })
-    .catch(error => console.error('Error fetching navibar.html:', error));
+  // Get the current URL
+  var currentUrl = window.location.href;
+
+  // Check if the current URL ends with "/index.html" (assuming that's the home directory)
+  if (currentUrl.endsWith("/home.html")) {
+    // Get the "Home" link element by its id
+    var homeLink = document.getElementById("home-link");
+
+    // Apply the red color to the "Home" link
+    homeLink.style.color = "red";
+  }
 </script>
+
 
 
 
