@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -24,8 +25,11 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-} */
-/* 
+
+    margin-bottom: 20px; /* Add some space between persons */
+}
+
+
 .person:hover {
     transform: translateY(-10px);
 }
@@ -38,9 +42,11 @@ body {
 }
 
 .person-info {
-    margin-left: 50px;
-    padding-left: 20px;
-    text-align: left;
+
+    margin-left: 0; /* Reset margin-left for mobile */
+    padding: 20px;
+    text-align: center; /* Center text for mobile */
+
     flex: 1;
 }
 
@@ -55,7 +61,10 @@ body {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 10px;
-    margin-left: 120px;
+
+    margin-left: 0; /* Reset margin-left for mobile */
+    text-align: justify;
+
 }
 
 .socialmedia {
@@ -85,7 +94,7 @@ body {
 .contact {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 50px 20px; /* Reduce padding for mobile */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,13 +104,12 @@ body {
 }
 
 .contacts {
-    height: auto;
-    width: 600px;
+    width: 100%; /* Adjust width to fit smaller screens */
     font-weight: bold;
 }
 
 .contact .contact {
-    max-width: 800px;
+    max-width: 100%; /* Adjust max-width for smaller screens */
     text-align: center;
 }
 
@@ -112,21 +120,20 @@ body {
 }
 
 .contact .contacts p {
-    margin-top: 50px;
+    margin-top: 20px; /* Reduce margin-top for mobile */
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px; /* Increase font size for mobile */
     color: #fff;
 }
 
 .button {
-    margin-top: 30px;
+    margin-top: 20px; /* Adjust margin-top for mobile */
     background-color: red;
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
-    /* margin: 4px 2px; */
     opacity: 0.6;
     transition: 0.3s;
     display: inline-block;
@@ -139,48 +146,49 @@ body {
 }
 
 
+/* Media Query for screens less than 768px wide (typical mobile devices) */
+@media screen and (max-width: 768px) {
+    .person-info {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
 
-/* Your existing CSS styles here */
+    .person-info h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
 
-/* Slideshow styles */
-.slideshow-container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+    .person-info p {
+        font-size: 14px; /* Keep font size the same for smaller screens */
+    }
+
+    .contact {
+        padding: 30px; /* Increase padding for smaller screens */
+    }
+
+    .contacts h2 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .contacts p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .button {
+        padding: 12px 24px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 }
 
-.mySlides {
-    display: none;
-    text-align: center;
-}
-
-.mySlides img {
-    max-width: 100%;
-    height: auto;
-}
-
-.image-details {
-    font-size: 18px;
-    color: #333;
-    margin-top: 10px;
-}
-
-/* Add styles for slideshow controls (if needed) */
-
-/* End of your existing CSS styles */
 
 
-/* Add these styles for pagination dots */
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
+iframe {
+    width: 100%;
+    height: 400px; 
+  }
 
-.active {
-    background-color: #333; /* Change to the color you prefer for active dot */
-}
+ 
+  @media (max-width: 768px) {
+    iframe {
+      height: 1050px; 
+    }
+  }
+
