@@ -215,7 +215,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ebf1f5;
+  color: #ec0f0f;
 }
 
 .navbar .dropdown ul {
@@ -627,7 +627,7 @@ section {
   }
 
   .section-title h2 {
-      font-size: 18px;
+      font-size: 28px;
   }
 
   .section-title h2::after,
@@ -635,7 +635,8 @@ section {
       width: 0px;
   }
 #sectitle{
-  font-size: 11px;
+  font-size: 18px;
+  line-height: 1.6;
   align-items: center;
   justify-content: center;
 }
