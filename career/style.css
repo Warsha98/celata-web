@@ -105,10 +105,11 @@
   flex-direction: column;
   background: url(https://www.freevector.com/uploads/vector/preview/17784/FreeVector-Global-Business-Background-1.jpg);
   background-size: cover;
+  
 }
 
 .contact .contacts {
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
 }
 
@@ -119,10 +120,10 @@
 }
 
 .contact .contacts p {
-  margin-top: 50px;
+  margin-top: 30px;
   font-weight: 600;
   font-size: 20px;
-  color: hsl(195, 12%, 93%);
+  color: hsl(195, 100%, 1%);
   text-align: justify;
 }
 
